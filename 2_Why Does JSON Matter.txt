@@ -1,0 +1,12 @@
+#Why does JSON matter?#
+
+With the rise of AJAX-powered sites, it’s becoming more and more important for sites to be able to load data quickly and
+asynchronously, or in the background without delaying page rendering. Switching up the contents of a certain element within our
+layouts without requiring a page refresh adds a “wow” factor to our applications, not to mention the added convenience for our
+users. Because of the popularity and ease of social media, many sites rely on the content provided by sites such as Twitter,
+Flickr, and others. These sites provide RSS feeds, which are easy to import and use on the server-side, but if we try to load
+them with AJAX, we run into a wall: we can only load an RSS feed if we’re requesting it from the same domain it’s hosted on.
+
+JSON allows us to overcome the cross-domain issue because we can use a method called JSONP that uses a callback function to send
+the JSON data back to our domain. It’s this capability that makes JSON so incredibly useful, as it opens up a lot of doors that
+were previously difficult to work around.
